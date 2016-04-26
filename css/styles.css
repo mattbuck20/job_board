@@ -207,3 +207,41 @@ body {
     border-radius: 2em;
     color: #008080;
 }
+
+@media only screen and (max-width: 700px) {
+  .main_header {
+    margin-top: 3em;
+}
+
+.logo {
+   display: block;
+   margin: 0 auto;
+   text-align: center;
+  }
+  
+.logo img {
+    float: none;
+}
+.logo h1 {
+   float: none;
+   margin: 0;
+   font-size: 1.1em;
+}
+
+  .nav {
+    float: none;
+    text-align: center; }
+    .nav a {
+      margin: 0 .5em; } }
+@media only screen and (max-width: 600px) {
+  #timeline .listing .image_wrapper {
+    margin-right: 1em; }
+    #timeline .listing .image_wrapper img {
+      width: 50px; }
+  #timeline .listing .info {
+    width: 100%;
+    padding: .4em 0 0 0; }
+    #timeline .listing .info .job_title {
+      font-size: 1.25em; }
+  #timeline .listing .job_type {
+    display: none; } }
