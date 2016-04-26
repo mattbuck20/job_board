@@ -69,7 +69,7 @@ body {
 }
 
 #timeline .listing {
-   background: #FFF;
+    background: #FFF;
     border: 1px solid #e6e7e9; 
     border-radius: .3rem;
     padding: 1em;
@@ -96,4 +96,72 @@ body {
         display: block;
         margin: 0 auto;
         border-radius: .25em;
+}
+
+#timeline .listing .info {
+      line-height: 1.25;
+      width: 640px;
+      padding-left: 25px;
+}
+
+#timeline .listing .info .job_title {
+    font-weight: 700;
+    color: #34324b;
+    font-size: 1.5em;
+}
+
+#timeline .listing .info .job_info {
+    color: #74718f;
+    font-size: .9em;
+    display: block;
+}
+
+#timeline .listing .info .job_info span {
+    margin: 0 .75em;
+}
+
+#timeline .listing .job_type {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .75em;
+    position: relative;
+    white-space: nowrap;
+    padding-top: 0.6em;
+    width: 100px;
+}
+
+#timeline .listing .job_type:before {
+        content: " ";
+        background: #a378fc;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        position: absolute;
+        left: -20px;
+        top: 28px;
+}
+
+#timeline .listing .full_time {
+    color: #fd7576;
+}
+#timeline .listing .full_time:before {
+    background: #fd7576;
+}
+#timeline .listing .part_time {
+    color: #fec85d; 
+}
+#timeline .listing .part_time:before {
+    background: #fec85d; 
+}
+#timeline .listing .freelance {
+    color: #4db8de;
+}
+#timeline .listing .freelance:before {
+    background: #4db8de;
+}
+#timeline .listing .contract {
+      color: #a378fc;
+}
+#timeline .listing .contract:before {
+    background: #a378fc;
 }
