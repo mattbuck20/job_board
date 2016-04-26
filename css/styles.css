@@ -45,3 +45,25 @@ body {
    margin-left: 1em;
    text-decoration: none;
 }
+
+#timeline {
+   width: 100%; 
+   position: relative;
+   list-style: none;
+   padding: 0;
+}
+
+#timeline a {
+    text-decoration: none;
+}
+
+#timeline:after {
+    content:"";
+    width: 1px;
+    background: 1px #e6e7e9;
+    height: 90%;
+    position: absolute;
+    top: 5em;
+    left: 3em;
+    z-index: 0;
+}
