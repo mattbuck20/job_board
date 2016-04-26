@@ -192,4 +192,18 @@ body {
     z-index: 2;
     position: relative;
     margin: 1em 0 2em 0; 
-}    
+}  
+
+.load_more {
+  text-align: center;
+}
+
+.load_more .button {
+    border: 2px solid #008080;
+    outline: none;
+    padding: 1em 3.5em;
+    text-align: center;
+    background: transparent;
+    border-radius: 2em;
+    color: #008080;
+}
