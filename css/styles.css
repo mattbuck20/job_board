@@ -34,3 +34,14 @@ body {
 .logo h1 span {
     font-weight: 400;
 }
+
+.nav {
+    float: right;
+    padding-top: 1.75em;
+}
+
+.nav a {
+   color: #74718f;
+   margin-left: 1em;
+   text-decoration: none;
+}
