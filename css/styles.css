@@ -76,4 +76,24 @@ body {
     margin-bottom: 1em;
     position: relative;
     z-index: 1;
+    display: table;
+    width: 96%;
+}
+
+#timeline .listing img, #timeline .listing .info, #timeline .listing .job_type {
+   display: table-cell;
+   vertical-align: middle;
+   font-size: .9em;
+   color: #74718f;
+}
+
+#timeline .listing .image_wrapper {
+    width: 60px;
+}
+
+#timeline .listing .image_wrapper img {
+        width: 60px;
+        display: block;
+        margin: 0 auto;
+        border-radius: .25em;
 }
